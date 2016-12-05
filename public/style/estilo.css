@@ -1,6 +1,6 @@
 body {
-  background: #FFF;
-	font-family: Georgia, Times New Roman, Times, serif;
+  background-color: rgb(6, 64, 108);
+  font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 60px;
 	text-align: center;
     margin: 0;
@@ -13,7 +13,7 @@ h1 {
 	font-weight: normal;
 	margin: 0;
     font-family: 'Chelsea Market', Georgia, serif;
-    color: #000;
+    color: black;
 	line-height: 1;
 }
 
@@ -21,15 +21,31 @@ h2 {
 	font-size: 70px;
 	font-weight: normal;
 	margin: 0;
-	color: #FFB000;
+	color:  #FFB000;
     font-family: 'Chelsea Market', Georgia, serif;
 	text-transform: lowercase;
 }
-
+code {
+    background-color: #000;
+    font-style: normal;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 15px;
+    font-family: menlo, monospace;
+}
 h3 {
 	font-size: 40px;
 	font-weight: normal;
 	margin: 0;
     margin-top: 40px;
 	text-transform: lowercase;
+  text-align: justify;
+  color: white;
+}
+
+p {
+	width: 960px;
+	margin: 40px auto;
+	color: #000;
+    line-height: 200%;
 }
