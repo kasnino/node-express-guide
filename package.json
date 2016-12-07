@@ -1,0 +1,26 @@
+{
+  "name": "guianodejs",
+  "version": "1.0.0",
+  "description": "guia detallada como usar node con express Js",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasnino/node-express-guide.git"
+  },
+  "keywords": [
+    "777"
+  ],
+  "author": "Kristian Serrano @Kasnino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasnino/node-express-guide/issues"
+  },
+  "homepage": "https://github.com/kasnino/node-express-guide#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6"
+  }
+}
