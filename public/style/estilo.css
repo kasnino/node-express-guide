@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(6, 64, 108);
+  background-color: #FFF;
   font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 60px;
 	text-align: center;
@@ -49,3 +49,21 @@ p {
 	color: #000;
     line-height: 200%;
 }
+.scrollblock {
+	position: relative;
+	margin: 0;
+	width: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.block-setup { background-color: #348fd4; }
+.block-setup h2 { color: #06406c; }
+.block-setup h2 a { background: none; padding: 0; font-size: normal; }
+.block-setup a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
+.block-setup a:hover { text-decoration: underline; }
+.block-create { background-color: #06406c; }
+.block-create h2 { color: #FFF; }
+.block-create p { color: #FFF; }
+.block-create code { background-color: #000; color: #FFF; }
